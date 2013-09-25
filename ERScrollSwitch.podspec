@@ -16,5 +16,4 @@ Pod::Spec.new do |s|
   # Frameworks
 
   s.source_files = '**/*.{h,m}'
-  s.resources = '**/*.png'
 end
