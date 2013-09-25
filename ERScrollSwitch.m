@@ -31,11 +31,15 @@
 }
 
 - (void)setOn:(BOOL)on animated:(BOOL)animated {
+    [self setOn:on animated:animated toggle:YES];
+}
+
+- (void)setOn:(BOOL)on animated:(BOOL)animated toggle:(BOOL)toggle {
     BOOL previousState = _on;
     _on = on;
     CGPoint scrollPoint = CGPointMake((self.on) ? 0 : self.thumbOffset, 0.0);
     [self setContentOffset:scrollPoint animated:animated];
-    if (_on != previousState && self.switchDelegate) {
+    if (toggle && _on != previousState && self.switchDelegate) {
         [self.switchDelegate didToggle:self];
     }
 }
