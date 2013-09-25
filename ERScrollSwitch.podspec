@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      =  'A custom iOS6-style switch similar to UISwitch'
   s.homepage     =  'https://github.com/alexnauda/ERScrollSwitch'
   s.author       =  { 'Alex Nauda' => 'alex@alexnauda.com' }
-  s.source       =  { :git => 'https://github.com/alexnauda/ERScrollSwitch' }
+  s.source       =  { :git => 'https://github.com/alexnauda/ERScrollSwitch', :tag => '0.1'  }
   
   # Platform setup
   s.requires_arc = true
