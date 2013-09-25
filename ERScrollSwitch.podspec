@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         =  'ERScrollSwitch'
   s.version      =  '0.1'
-  s.summary      =  'A custom switch for iOS'
+  s.summary      =  'A custom iOS6-style switch similar to UISwitch'
   s.homepage     =  'https://github.com/alexnauda/ERScrollSwitch'
   s.author       =  { 'Alex Nauda' => 'alex@alexnauda.com' }
   s.source       =  { :git => 'https://github.com/alexnauda/ERScrollSwitch' }
